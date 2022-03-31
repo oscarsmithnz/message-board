@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css" integrity="sha512-XgCw4Srl8lC1ECwcaHwAU0WnxQwHkqmInzg9wJLtGB7DRuMaXPuK2k9WJ2AwRDGdrgK9eJpZl2hUlLi2WQssmw==" crossorigin="anonymous" /> <head>
+    <head>
+        <title>Message Board Sign in</title>
+        <!--<meta http-equiv="refresh" content="0; url='http://localhost:8080/MessageBoard/lookup'" />-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="entry-text">
+        <h1>Enter name:</h1>
+        <form method="post" action="/MessageBoard/lookup">
+            <input id="user-text" type="text" name="user"/>
+
+            <input id="submit-user" type="submit" value="submit"/>
+        </form>
+        </div>
+    </body>
+</html>

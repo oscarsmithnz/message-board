@@ -1,0 +1,74 @@
+body{
+    font-family: "Hack";
+    background-color: #000;
+    color: #149414;
+}
+
+.item-wrap{
+    width: 50%;
+}
+.item{
+    padding: 1em;
+    background-color: #222;
+    margin: .25em;
+    border-radius: .1em;
+}
+h3{
+    margin: 0 .25em 1em 0;
+    padding: 0;
+}
+p{
+    padding-left: 1.36492em;
+}
+.wrapper{
+    display: flex;
+}
+button{
+    display: block;
+    margin-top: .25em;
+    margin-left: .2em;
+    background-color: #222;
+    color: #149414;
+    border: #149414 2px solid;
+    padding: .5em 1.632576em;
+}
+.new-post-wrap{
+    width: 40%;
+}
+textarea{
+    width: 98%;
+    margin: auto;
+    display: block;
+    border: .25em #149414 solid;
+    background-color: #222;
+    color: #149414;
+    resize: none;
+}
+.yep{
+    text-align: right;
+}
+#entry-text{
+    margin: auto;
+    width: 50%;
+    padding: 200px 0;
+    text-align: center;
+}
+#user-text{
+    background-color: #222;
+    color: #149414;
+    margin-top: .25em;
+    margin-left: .2em;
+    border: .1em #149414 solid;
+    height: 2.2em;
+}
+#submit-user{
+    margin-top: .25em;
+    margin-left: .2em;
+    background-color: #222;
+    color: #149414;
+    border: #149414 2px solid;
+    padding: .5em 1.632576em;
+}
+#thread-link{
+    display: inline-block;
+}
